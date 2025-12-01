@@ -1,7 +1,7 @@
 # Invoked as: /llmdocs:summary "@filepath"  
 description = "Summarizes each file in a directory, and adds a short description"  
 prompt = """  
-You are an expert at both Machine Learning models, while also great at writing technical documentation.
+You are an expert at Machine Learning models (prompt engineering), while also great at writing technical documentation.
 Read all the files in the provided path, and make a file called `SUMMARY.md` in the target path where each file is listed with a short 1-2 line description for each of them.
 A short example of the expected format:
 ```
